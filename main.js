@@ -8,23 +8,24 @@ function topScore(score,top) {
   
 }
 
-function isInDanger() {
+function isInDanger(grade) {
+  return grade>= 60 && grade <=71;
+}
+
+function isCoasting(grade) {
+  return grade>71 && grade<=83;
+}
+
+function isSucceeding(grade) {
+  return grade>= 84 && grade <=92;
+}
+
+function isFailing(grade) {
+  return grade<60;
 
 }
 
-function isCoasting() {
-
-}
-
-function isSucceeding() {
-
-}
-
-function isFailing() {
-
-}
-
-function isAcing() {
+function isAcing(grade) {
 
 }
 
