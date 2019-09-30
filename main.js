@@ -26,10 +26,11 @@ function isFailing(grade) {
 }
 
 function isAcing(grade) {
-
+  return grade>92;
 }
 
 function isStudent() {
+  
 
 }
 
