@@ -1,8 +1,10 @@
-function moreThan5() {
+function moreThan5(num) {
+  return num>5
 
 }
 
-function topScore() {
+function topScore(score,top) {
+  return score>top;
   
 }
 
