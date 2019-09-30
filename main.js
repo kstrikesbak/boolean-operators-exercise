@@ -37,8 +37,8 @@ function isTeacher(role) {
   return role === 'teacher';
 }
 
-function isAdmin() {
-
+function isAdmin(role) {
+  return role === 'admin';
 }
 
 function isElementary() {
