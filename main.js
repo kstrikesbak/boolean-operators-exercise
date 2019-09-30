@@ -1,11 +1,9 @@
 function moreThan5(num) {
-  return num>5
-
+  return num>5;
 }
 
 function topScore(score,top) {
   return score>top;
-  
 }
 
 function isInDanger(grade) {
@@ -22,7 +20,6 @@ function isSucceeding(grade) {
 
 function isFailing(grade) {
   return grade<60;
-
 }
 
 function isAcing(grade) {
@@ -41,20 +38,20 @@ function isAdmin(role) {
   return role === 'admin';
 }
 
-function isElementary() {
-
+function isElementary(level) {
+  return level === 'elementary';
 }
 
-function notAnElementarySchoolAdministrator() {
-
+function notAnElementarySchoolAdministrator(role,level) {
+  return 
 }
 
-function isMiddleSchoolTeacher() {
-
+function isMiddleSchoolTeacher(role, level) {
+  return role === 'teacher' && level>=6 && level<=8;
 }
 
-function differentPeople() {
-
+function differentPeople(name1,name2) {
+  return name1 !== name2;
 }
 
 module.exports = {
