@@ -29,13 +29,12 @@ function isAcing(grade) {
   return grade>92;
 }
 
-function isStudent() {
-  
-
+function isStudent(role) {
+  return role === 'student';
 }
 
-function isTeacher() {
-
+function isTeacher(role) {
+  return role === 'teacher';
 }
 
 function isAdmin() {
