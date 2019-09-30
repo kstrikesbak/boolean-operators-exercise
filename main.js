@@ -43,7 +43,7 @@ function isElementary(level) {
 }
 
 function notAnElementarySchoolAdministrator(role,level) {
-  return 
+  return role !== 'elementary'|| level !== 'admin';
 }
 
 function isMiddleSchoolTeacher(role, level) {
